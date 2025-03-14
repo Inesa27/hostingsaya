@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inesa Aisahwa - Profil Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Inesa Aisahwa</h1>
+            <p>NPM: 2413025042</p>
+            <p>Program Studi: Pendidikan Teknologi Informasi</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#tugas">Tugas</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="profil" class="container">
+            <h2>Profil</h2>
+            <p>Selamat datang di website profesional mahasiswa Inesa Aisahwa. Website ini digunakan untuk memposting tugas kuliah dan informasi akademik lainnya.</p>
+        </section>
+
+        <section id="tugas" class="container">
+            <h2>Tugas Kuliah</h2>
+            <input type="file" id="upload" accept=".pdf, .docx, .pptx">
+            <button onclick="uploadTugas()">Unggah Tugas</button>
+            <div id="tugas-list">
+                <h3>Daftar Tugas:</h3>
+                <ul id="listTugas"></ul>
+            </div>
+        </section>
+
+        <section id="kontak" class="container">
+            <h2>Kontak</h2>
+            <p>Email: inesa.aisahwa@example.com</p>
+            <p>Telepon: +62 812 3456 7890</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Inesa Aisahwa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
